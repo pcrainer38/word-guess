@@ -1,0 +1,33 @@
+header {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: blue;
+
+}
+
+.gameboard {
+    display: flex;
+    padding: 20px;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.reset {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
