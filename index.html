@@ -17,18 +17,28 @@
         <button id="startBtn">START</button>
         <br>
     </section>
-
-    <section class="gameboard"></section>
+    
+    <section>
+        <p id="displayWord"></p>
+    </section>
 
     <section class="input">
-        <input type="text" class="typing-input" maxlength="1" />
+        
+        <br>
+        <br>
+        <input type="text" id="key" maxlength="1" oninput="playGame()"/>
+    </section>
+    
+
+    <section class="gameboard">
+        <h2>Enter a letter</h2>
     </section>
 
 
-    <section class="reset">
+    <!-- <section class="reset">
         <br>
         <button>Reset</button>
-    </section>
+    </section> -->
 
     <script src="./assets/js/script.js"></script>
 </body>
